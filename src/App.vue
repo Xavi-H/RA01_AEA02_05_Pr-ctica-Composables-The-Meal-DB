@@ -6,3 +6,8 @@ import NavigationBar from './components/NavigationBar.vue'
   <NavigationBar/>
   <RouterView/>
 </template>
+<style scoped>
+main {
+  background-color: #f5f5f5;
+}
+</style>

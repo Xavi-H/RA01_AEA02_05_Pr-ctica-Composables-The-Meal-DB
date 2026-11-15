@@ -30,7 +30,7 @@ function onSearch(busqueda) {
     <p v-else-if="error">Error: {{ error }}</p>
     <p v-else-if="meals.length === 0">No s'ha trobat cap recepta.</p>
 
-    <div v-else>
+    <div v-else class="meals">
       <MealCard v-for="meal in meals" :key="meal.idMeal" :meal="meal" />
     </div>
   </main>

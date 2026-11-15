@@ -1,0 +1,43 @@
+body {
+  background-color: #f0f4f8;
+  font-family: sans-serif;
+  margin: 20px;
+}
+
+/* Buscador y botó */
+input {
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 6px 14px;
+  background-color: #2a8a7a;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* Contenidor de las targetes*/
+.meals {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+/* Cada tarjeta */
+.card {
+  background-color: white;
+  border-radius: 8px;
+  padding: 12px;
+  width: 200px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 6px;
+}

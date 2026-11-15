@@ -9,8 +9,8 @@ defineProps({
 </script>
 
 <template>
-  <div>
-    <img :src="meal.strMealThumb" :alt="meal.strMeal" width="200" />
+  <div class="card">
+    <img :src="meal.strMealThumb" :alt="meal.strMeal"/>
     <h3>{{ meal.strMeal }}</h3>
     <p>{{ meal.strArea }} - {{ meal.strCategory }}</p>
     <!-- Enllaç a la ruta 'Meal' passant l'idMeal com a paràmetre de la URL -->
